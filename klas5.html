@@ -23,30 +23,8 @@
     </style>
     <div id="header"></div>
     <div class="container mt-4">
-        <h1>Klas 5 - Boeken</h1>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card mb-3" id="card1">
-                    <div class="card-body">
-                        <h5 class="card-title">Boek Red</h5>
-                        <a href="#" class="card-link">Download PDF</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card mb-3" id="card2">
-                    <div class="card-body">
-                        <h5 class="card-title">Boek Blue</h5>
-                        <a href="#" class="card-link">Download PDF</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card mb-3" id="card3">
-                    <div class="card-body">
-                        <h5 class="card-title">Boek Green</h5>
-                        <a href="#" class="card-link">Download PDF</a>
-                    </div>
+        <h1>Klas 5</h1>
+        
         <script>
             fetch('header.html')
                 .then(response => response.text())
@@ -54,6 +32,6 @@
                     document.getElementById('header').innerHTML = data;
                 });
         </script>
-                </div>
+                
                 <!-- Shared header loaded via header.html -->
-        </div>
+    </div>
